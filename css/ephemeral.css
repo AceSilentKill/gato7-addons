@@ -1,0 +1,53 @@
+/* download instructions: do ctrl + s on this page you are currently on and put it in your resource swapper. if you need more help there are many tutorials online */
+
+/* this css was made by ashevoy/dj62. ashevoy.github.io for more info abt this atrocity. love u all <3
+   if you like this css make sure to share it to more people it'd be so appreciated really :)
+   dont mess with this url its to auto update the css */
+@import url(https://ashevoy.github.io/kc/latest.css);
+
+/* customization options under */
+
+:root {
+    --backgroundColour: #302c29;
+    /* backgrounds and buttons colour - default: 302c29 */
+    --textColour: #ffffff;
+    /* basic text colour - default is ffffff */
+    --specialTextColour: #ff4fb9;
+    /* special text such as fps etc */
+    --linkColour: #ff4fb9;
+    /* link colour, default is ff4fb9 */
+    --showMaxAmmo: 0;
+    /* showmaxammo: show opacity of the max ammo (default 0) */
+    --hpValueColour: #ffffff;
+    --ammoValueColour: #ffffff;
+    /* hp and ammo val colour, default fff */
+    --hpNumberHeight: 0px;
+    --ammoNumberHeight: 0px;
+    /* change the height of the hp and ammo (adds pixels) */
+    --hpBarHeight: 16px;
+    --hpBarWidth: 240px;
+    --hpBarPositionX: 50%;
+    --hpBarPositionY: 7%;
+    --hpBarOutlineWidth: 2px;
+    --hpBarOpacity: 1;
+    /* hpbar(element): self explanatory. */
+    /* hpbaropacity: hp bar opacity, 0 for hidden 1 for shown */
+    --classPickerOpacity: 0;
+    --hoverClassPickerOpacity: 0.5;
+    /* the class picker on the right of the menu's opacity. it'll still show when hovering above it. default is 0 (hidden) */
+    /* the classes you aren't hovering over's opacities. default is 0.5. if you put the class picker opacity to 1 i recommend making this 1 as well. */
+    --customReloadMessage: ' ';
+    /* replace this with a custom reload message, keep the apostrophes */
+    --customTopLeftMessage: " ";
+    /* replace this with a custom message to put at the top left, keep quote marks */
+    --customChatHolder: 'annoy people';
+    /* replace this with any custom chat holder message you want 2 add, keep the apostrophes */
+    --showChangelog: 1;
+    /* putting this to 0 will hide the changelog during the loading. */
+}
+
+/* font change stuff, do not touch the font-family value */
+@font-face {
+  font-family: gamefont;
+  src: url(https://ashevoy.github.io/Montserrat-Medium.ttf);
+}

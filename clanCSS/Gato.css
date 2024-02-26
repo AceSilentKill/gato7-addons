@@ -1,0 +1,21 @@
+#backgroundImage{
+    background-image:url("https://cdn.discordapp.com/splashes/634754871232430115/f2f06256c81a886df049ef633317e059.jpg?size=2048")!important;
+    background-size:100% 100%;
+    opacity:0.9;
+}
+
+.scrollItem {
+    border:2px solid white!important;
+    background-color:rgb(53 53 53 / 0.5);
+    border-radius:16px;
+    -webkit-box-shadow:0 0px 0 0 #494949;-moz-box-shadow:0 0px 0 0 #494949;box-shadow:0 0px 0 0 #494949;
+}
+
+.clanLogoP{
+    content:url("https://github.com/creepycats/gatoclient-addons/blob/main/img/icon.png?raw=true");
+}
+
+.profileTabs{
+    outline:2px solid white!important;
+    background-color:rgb(53 53 53 / 0.5);
+}

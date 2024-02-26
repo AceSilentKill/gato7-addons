@@ -1,0 +1,24 @@
+{
+  "clans":[
+    {
+      "name":"si",
+      "color":"#5ebe77"
+    },
+    {
+      "name":"ax",
+      "color":"#FF5733"
+    },
+    {
+      "name":"kiss",
+      "color":"#FEA9E5"
+    },
+    {
+      "name":"Sway",
+      "color":"#000000"
+    },
+    {
+      "name":"cute",
+      "color":"#ff8099"
+    }
+  ]
+}

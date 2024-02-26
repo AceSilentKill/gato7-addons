@@ -1,0 +1,46 @@
+@import url(https://mof1.github.io/krunker_css/css/main_custom.css);
+
+:root {
+  --splash-logo: url("https://raw.githubusercontent.com/MOF1/cdn/main/MOF1_CSS_default/img/logo_1.png");
+  --sidebar-logo: url("https://raw.githubusercontent.com/MOF1/cdn/main/MOF1_CSS_default/img/krunker.png");
+  --spinner-url: url("https://raw.githubusercontent.com/MOF1/cdn/main/MOF1_CSS_default/img/spinner.svg");
+  --blur-radius1: 20px;
+  --blur-radius2: 5px;
+  --sidebarIconColorOnHover: #ffffff;
+  --sidebarIconBgOnHover: #ffffff12;
+  --accentColor: #39ffd4;
+  --accentColorST: #39ffd469;
+  --purple: #987bff;
+  --purple-dark: #592bff;
+  --orange: #ff9ea2;
+  --orange-dark: #ff3943;
+  --yellow: #ffeb3b;
+  --yellow-dark: #9b8b00;
+
+  --primaryBg: #101216;
+  --subBg: #292e39;
+  --subBgM: #2a2f3a;
+  --subBgST: #292e394d;
+  --c_white: #dfdfdf;
+  --c_whiteST: #ffffffb3;
+  --l-accentColor: #84a1ff;
+
+  --dirty: #757575;
+  --dirty-light: #a3a3a3;
+
+  --gradientColor1: #ff39de;
+  --gradientColor2: #b639ff;
+  --gradientColor3: #39ffd4;
+  --gradientColor4: #84a1ff;
+  --gradientColor5: #ffffff;
+
+  --orange2: #6797ff;
+  --orange2-dark: #2351b4;
+
+  --green: #8bc34a;
+  --green-dark: #458100;
+
+  /*Fonts*/
+  --mainFont: steradian;
+  --subFont: cirular;
+}

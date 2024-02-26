@@ -1,0 +1,44 @@
+{
+  "cssList":[
+    {
+      "name": "Default CSS",
+      "id": "default",
+      "author": "Krunker.io",
+      "fileLink":"",
+      "thumbnail":"https://images.crazygames.com/games/krunker-io/cover-1591336739727.png",
+      "ignoreFilter":""
+    },
+    {
+      "name": "Ephemeral",
+      "id": "ephemeral",
+      "author": "ashevoy/dj62",
+      "fileLink":"https://ashevoy.github.io/kc/main_custom.css",
+      "thumbnail":"https://media.discordapp.net/attachments/1041547592548495381/1050982774728835122/IMG_20221210_045008.png",
+      "ignoreFilter":""
+    },
+    {
+      "name": "Panda",
+      "id": "panda",
+      "author": "LukeTheDuke",
+      "fileLink":"https://rawcdn.githack.com/creepycats/gatoclient-addons/6765a375c9ca09e936863bf55a32a48eec9cc6e6/css/panda.css",
+      "thumbnail":"https://media.discordapp.net/attachments/901905234861883432/1051243280098136114/menu.png",
+      "ignoreFilter":"--yellow,--blue,--green,--red,--circle-mask"
+    },
+    {
+      "name": "MOF1 v2.2",
+      "id": "mof1",
+      "author": "MOF1 CL4N",
+      "fileLink":"https://raw.githubusercontent.com/creepycats/gatoclient-addons/main/css/mof1-fork.css",
+      "thumbnail":"https://i.ytimg.com/vi/IbyWouLoxOY/maxresdefault.jpg",
+      "ignoreFilter":""
+    },
+    {
+      "name": "Keystrokes: Modern",
+      "id": "keys_modern",
+      "author": "Serpent Client",
+      "fileLink":"https://raw.githubusercontent.com/creepycats/gatoclient-addons/main/css/serpentkeys.css",
+      "thumbnail":"",
+      "ignoreFilter":""
+    }
+  ]
+}

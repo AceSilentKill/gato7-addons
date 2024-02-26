@@ -1,0 +1,336 @@
+/* ephemeral social. ashevoy.github.io */
+
+:root {
+    /* This is the background that will show up behind your user info*/
+    --background-url: url("https://cdn.discordapp.com/attachments/628964831529140254/1045665219206201375/IMG_20221125_12390841.jpg");
+
+    /* Radius of corners */
+    --corner-radius: 0px;
+
+    /* Window Background Color */
+    --bg-color:white;
+
+    /* Window Outline Color */
+    --outline-color:black;
+}
+/* Only Modify Below Stuff if you Want a Unique CSS*/
+
+@font-face {
+  font-family: gamefont;
+  src: url(https://ashevoy.github.io/fontvariable.ttf);
+}
+
+* {
+  font-family: gamefont;
+  font-variation-settings: 'wght' 600;
+}
+
+#backgroundImage{
+    /* Background Image */
+    background-image:var(--background-url)!important;
+    background-size: cover!important;
+    background-size:100% 100%;
+    opacity:1;
+}
+
+.scrollItemNew {
+    /* Each Element on the main profile will have this background color and outline */
+    background-color:var(--bg-color);
+    border-radius:var(--corner-radius);
+
+    /* Removes the shadow */
+    -webkit-box-shadow:0 0px 0 0 #494949;-moz-box-shadow:0 0px 0 0 #494949;box-shadow:0 0px 0 0 #494949;
+}
+
+.profileTabs{
+    background-color:var(--bg-color);
+}
+
+a {
+    color: black!important;
+}
+
+#nameSwitch {
+    cursor: pointer;
+    pointer-events: all;
+    color: rgba(0,0,0);
+}
+
+.leftMidHolder {
+    color: black;
+}
+
+.leftMidHolder span {
+    color: black!important;
+}
+
+#followerC {
+    color: black;
+}
+
+.follL {
+    color: black;
+}
+
+.follCount {
+    color: black;
+    font-size: 17px;
+    text-transform: lowercase;
+    top: 2px;
+}
+
+.leftBottomHolder {
+    font-size: 20px!important;
+}
+
+.profileNav {
+    filter: drop-shadow(8px 8px 0px #1ae6a1) drop-shadow(2px 4px 6px black);
+    margin-top: -20px;
+    margin-bottom: 25px;
+    border-radius: 0px;
+}
+
+.scrollItemNew {
+    filter: drop-shadow(8px 8px 0px #1ae6a1) drop-shadow(2px 4px 6px black);
+}
+
+.profileTab {
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.profileTab:hover {
+    color: #fff;
+    background: #000;
+}
+
+div#giftBtn:hover {
+    transform: scale(1);
+    background-color: #1ae6a1!important;
+    filter: none;
+}
+
+div#giftBtn {
+    color: white;
+    background-color: #FED0EA;
+    border: none;
+    text-shadow: 1px 1px 0 #ff8ece, -1px -1px 0 #ff8ece, -1px 1px 0 #ff8ece, 1px -1px 0 #ff8ece;
+}
+
+#tradeBtn:hover {
+    transform: scale(1);
+    background-color: #1ae6a1!important;
+    filter: none;
+}
+
+#tradeBtn {
+    color: white;
+    background-color: #FED0EA;
+    border: none;
+    text-shadow: 1px 1px 0 #ff8ece, -1px -1px 0 #ff8ece, -1px 1px 0 #ff8ece, 1px -1px 0 #ff8ece;
+}
+
+#tradeBtn:after {
+    content: " (unlikely to accept)";
+}
+
+#followBtn:hover {
+    transform: scale(1);
+    background-color: #1ae6a1!important;
+    filter: none;
+}
+
+#followBtn {
+    color: white;
+    background-color: #FED0EA;
+    border: none;
+    text-shadow: 1px 1px 0 #ff8ece, -1px -1px 0 #ff8ece, -1px 1px 0 #ff8ece, 1px -1px 0 #ff8ece;
+}
+
+.pSt {
+    font-size: 15px;
+    color: #000;
+    border: 0px solid rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0);
+    text-shadow: none!important;
+}
+
+.pSt strong {
+    color: #000;
+    font-size: 18px;
+    text-shadow: none;
+    font-variation-settings: 'wght' 747;
+}
+
+.bigMenTabs {
+    background-color: transparent!important;
+}
+
+.bigMenTab {
+    color: #000;
+    font-size: 20px!important;
+    text-transform: uppercase;
+}
+
+.bigMenTab:hover {
+    color: #fff;
+    background: #000;
+}
+
+.classCard {
+  text-shadow: none;
+  background-color: transparent;
+}
+
+.className {
+  color: #000;
+  font-size: 20px;
+}
+
+.classWeap {
+    color: #000;
+    font-size: 15px;
+}
+
+.classLvl {
+    color: #000;
+    background: #fff;
+    font-size: 20px;
+}
+
+.scrollItemHead {
+    font-family: gamefont;
+    text-transform: uppercase;
+    color: black;
+}
+
+.graphHeader {
+  background-color: #1ae6a1
+}
+
+.xpBar {
+  background-color: #000;
+  border-radius: 0px;
+  height: 33px;
+  padding: 1px;
+}
+
+.clsXPBarC {
+    background-image: linear-gradient(to right,#1ae6a1 30%,#FED0EA 70%);
+}
+
+.clsXPBarV {
+    letter-spacing: -1.4px;
+    font-size: 16px;
+    top: 2px;
+    text-shadow: 1px 1px 0 #ff8ece, -1px -1px 0 #ff8ece, -1px 1px 0 #ff8ece, 1px -1px 0 #ff8ece;
+}
+
+.xpBarB {
+    height: 100%;
+    background-image: linear-gradient(to right,#1ae6a1 30%,#FED0EA 70%);
+}
+
+.xpBarV {
+    font-size: 20px;
+    font-variation-settings: "wght" 747;
+    top: 6px;
+    color: white;
+    text-shadow: 1px 1px 0 #ff8ece, -1px -1px 0 #ff8ece, -1px 1px 0 #ff8ece, 1px -1px 0 #ff8ece;
+}
+
+.cardAction {
+    color: rgba(255,255,255,.85)!important;
+}
+
+#profSales {
+    filter: hue-rotate(220deg) brightness(1.2) saturate(0.8);
+}
+
+.cardActions {
+  background: #1ae6a13d;
+}
+
+.marketCard {
+    background-color: #fed0ea;
+}
+
+.marketCard:hover {
+    background-color: #fff;
+}
+
+.marketPrice {
+    background: transparent;
+    font-size: 25px;
+    text-shadow: 3px 4px 5px #000, -2px -1px 5px #000, -2px 4px 5px #000, 3px -1px 5px #000;
+}
+
+.marketPrice span {
+    color: #1ae6a1!important;
+    font-size: 15px;
+}
+
+#shareBtn {
+    color: #1ae6a1!important;
+}
+
+#shareBtn:hover {
+    transform: scale(1);
+    filter: none;
+    color: #FED0EA!important;
+}
+
+#reprtBtn {
+    color: #FED0EA!important;
+}
+
+#reprtBtn:hover {
+    color: #1ae6a1!important;
+    filter: none;
+    transform: scale(1);
+}
+
+#twitchBtn {
+    filter: hue-rotate(49deg) brightness(7.8) saturate(155%);
+}
+
+#twitchBtn:hover {
+    filter: hue-rotate(-117deg) brightness(4) saturate(47%) contrast(1)!important;
+    transform: scale(1);
+}
+
+.flag-icon {
+    background-image: url(https://cdn.discordapp.com/attachments/628964831529140254/1053324178796855296/tran.png);
+}
+
+@keyframes rayntext {
+    0%, 200% {
+        background-position: 0 0;
+    }
+    99.9999999999999999999999999999999% {
+        background-position: -130% 0;
+    }
+}
+
+.leftTopHolder a {
+    background-image: linear-gradient(to right, #1ae6a1,#FED0EA,#7ddef6);
+    animation: rayntext 3s cubic-bezier(0.07, 2.37, 0.93, -0.88) infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    animation-direction: alternate;
+}
+
+.leftTopHolder {
+    font-size: 25px;
+    transform: translate(-97px, 0px);
+    clip-path: polygon(40% 0, 100% 0%, 100% 100%, 40% 100%);
+    transition: clip-path 200ms ease, -webkit-clip-path 200ms ease, transform 200ms ease;
+}
+
+.leftTopHolder:hover {
+    transform: translate(0px, 0px);
+    clip-path: polygon(0 0, 100% 0, 100% 95px, 0 95px);
+    transition: clip-path 200ms ease, -webkit-clip-path 200ms ease, transform 200ms ease;
+}

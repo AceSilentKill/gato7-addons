@@ -1,0 +1,87 @@
+{
+  "store": {
+    "addons": [
+      {
+        "name": "Keystrokes Overlay",
+        "id": "keystrokeOverlay",
+        "version": "1.0.5",
+        "fileLink":"https://raw.githubusercontent.com/creepycats/gatoclient-addons/main/addons/keystrokeOverlay.js",
+        "thumbnail": "https://github.com/creepycats/gatoclient-addons/blob/main/thumbnails/keyboardoverlay.png?raw=true",
+        "description": "Keyboard Overlay based off of the Crankshaft Keystrokes by KraXen72",
+        "isSocial": false
+      },
+      {
+        "name": "Better Matchmaker +",
+        "id": "betterMatchmaker",
+        "version": "1.0.9",
+        "fileLink":"https://raw.githubusercontent.com/creepycats/gatoclient-addons/main/addons/betterMatchmaker.js",
+        "thumbnail": "https://github.com/creepycats/gatoclient-addons/blob/main/thumbnails/bettermatchmaker.png?raw=true",
+        "description": "Completely Overhauls Matchmaker to be Fully Customizable",
+        "isSocial": false
+      },
+      {
+        "name": "TwitchUtility",
+        "id": "twitchUtility",
+        "version": "1.0.5",
+        "fileLink":"https://raw.githubusercontent.com/creepycats/gatoclient-addons/main/addons/twitchUtility.js",
+        "thumbnail": "https://github.com/creepycats/gatoclient-addons/blob/main/thumbnails/twitchutility.png?raw=true",
+        "description": "Allows you to integrate your Twitch chat ingame (!link, Chat View)",
+        "isSocial": false
+      },
+      {
+        "name": "Live Inbox Notifications",
+        "id": "inboxNotifier",
+        "version": "1.0.3",
+        "fileLink":"https://raw.githubusercontent.com/creepycats/gatoclient-addons/main/addons/inboxNotifier.js",
+        "thumbnail": "https://github.com/creepycats/gatoclient-addons/blob/main/thumbnails/inboxnotifier.png?raw=true",
+        "description": "Shows a notification in game when you get a new message in your inbox",
+        "isSocial": false
+      },
+      {
+        "name": "Optic Zoom",
+        "id": "opticZoom",
+        "version": "1.0.2",
+        "fileLink":"https://raw.githubusercontent.com/creepycats/gatoclient-addons/main/addons/opticZoom.js",
+        "thumbnail": "https://github.com/creepycats/gatoclient-addons/blob/main/thumbnails/opticzoom.png?raw=true",
+        "description": "Similar to Minecraft Optifine's zoom key, press a key to zoom in",
+        "isSocial": false
+      },
+      {
+        "name": "Alternate Account Manager",
+        "id": "altManager",
+        "version": "1.0.1",
+        "fileLink":"https://raw.githubusercontent.com/creepycats/gatoclient-addons/main/addons/altManager.js",
+        "thumbnail": "https://github.com/creepycats/gatoclient-addons/blob/main/thumbnails/altmng.png?raw=true",
+        "description": "Alternate Account Manager allows you to switch accounts. Based on LaF",
+        "isSocial": false
+      },
+      {
+        "name": "Block Spins",
+        "id": "blockSpins",
+        "version": "1.0.1",
+        "fileLink":"https://raw.githubusercontent.com/creepycats/gatoclient-addons/main/addons/blockSpins.js",
+        "thumbnail": "https://github.com/creepycats/gatoclient-addons/blob/main/thumbnails/blockSpins.png?raw=true",
+        "description": "A great way to fight your spinning addiction!",
+        "isSocial": false
+      },
+      {
+        "name": "Class Randomizer",
+        "id": "randomClass",
+        "version": "1.0.0",
+        "fileLink":"https://raw.githubusercontent.com/creepycats/gatoclient-addons/main/addons/randomClass.js",
+        "thumbnail": "https://github.com/creepycats/gatoclient-addons/blob/main/thumbnails/randomClass.png?raw=true",
+        "description": "Choose a random class (configurable) every time you spawn in",
+        "isSocial": false
+      },
+      {
+        "name": "AutoSpect",
+        "id": "autoSpect",
+        "version": "1.0.0",
+        "fileLink":"https://raw.githubusercontent.com/creepycats/gatoclient-addons/main/addons/autoSpect.js",
+        "thumbnail": "https://github.com/creepycats/gatoclient-addons/blob/main/thumbnails/autoSpect.png?raw=true",
+        "description": "Auto Spectator Mode",
+        "isSocial": false
+      }
+    ]
+  }
+}

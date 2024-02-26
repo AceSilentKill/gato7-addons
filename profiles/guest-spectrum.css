@@ -1,0 +1,110 @@
+/* ==UserStyle==
+@name           SapphireKR Krunker Hub Css
+@namespace		null
+@version        1.0.0
+@description    SapphireKR's personal krunker hub css.
+@author         SapphireKR
+==/UserStyle== */
+:root {
+    /* This is the background that will show up behind your user info*/
+    --background-url: url("https://raw.githubusercontent.com/aynp/dracula-wallpapers/main/Art/Rainbow%202.png");
+    
+    /* Radius of corners */
+    --corner-radius: 5px;
+    
+    /* Window Background Color */
+    --bg-color:rgb(53 53 53 / .5);
+    
+    /* Window Outline Color */
+    --outline-color:white;
+}
+/* Only Modify Below Stuff if you Want a Unique CSS*/
+
+#backgroundImage{
+    /* Background Image */
+    background-image:var(--background-url)!important;
+    background-size:100% 100%;
+    opacity:0.9;
+}
+
+.scrollItemNew {
+    /* Each Element on the main profile will have this background color and outline */
+    border:2px solid var(--outline-color)!important;
+    background-color:var(--bg-color);
+    border-radius:var(--corner-radius);
+    
+    /* Removes the shadow */
+    -webkit-box-shadow:0 0px 0 0 #494949;-moz-box-shadow:0 0px 0 0 #494949;box-shadow:0 0px 0 0 #494949;
+}
+
+.profileTabs{
+    outline:2px solid white!important;
+    background-color:var(--bg-color);
+}
+#nameSwitch {
+	color: #50fa7b;
+}
+.leftMidHolder {
+	color: #8be9fd;
+}
+.follL {
+	color: #bd93f9;
+}
+#tradeBtn {
+	color: #8be9fd;
+}
+#giftBtn {
+	color: #50fa7b;
+}
+.xpBarB {
+	background-color: #bd93f9; /* For browsers that do not support gradients */
+  	background-image: linear-gradient(#ffb86c, #f1fa8c);
+}
+.graphHeader {
+	background-color: #50fa7b;
+}
+#profSales {
+	color: #50fa7b;
+}
+#followPop {
+	background-color: #282a36;
+}
+.reqFollB {
+	color: #8be9fd;
+}
+.pSt {
+	color: #f8f8f2 !important;
+}
+.clsXPBarC {
+	background-color: #bd93f9; /* For browsers that do not support gradients */
+  	background-image: linear-gradient(#ffb86c, #f1fa8c);
+}
+.classCard {
+	background-color: #282a36;
+}
+#twitchBtn {
+	border-radius: 5px;
+	background-color: #bd93f9;
+}
+#reprtBtn {
+	color: #ff5555 !important;
+}
+#shareBtn {
+	color: #8be9fd !important;
+}
+.profileTab {
+	background-color: #44475a;
+	color: #f8f8f2 !important;
+}
+.scrollItemNew {
+	background-color: #44475a;
+}
+div[class='socPost fromProfile'] {
+	background-color: #44475a;
+}
+.blueLink {
+	color: #8be9fd !important;
+}
+.creationTab {
+	background-color: #44475a;
+}

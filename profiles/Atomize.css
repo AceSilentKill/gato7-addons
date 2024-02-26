@@ -1,0 +1,163 @@
+/* 
+Gatoclient Profile Theme Template
+By creepycats
+
+Modify the Variables below to customize your theme
+Use resource swapper to test it before submitting
+*/
+:root {
+    /* This is the background that will show up behind your user info*/
+    --background-url: url("https://media.discordapp.net/attachments/853184194616229919/1054612872275177472/socialbg.png?width=1662&height=935");
+    
+    /* Radius of corners */
+    --corner-radius: 3px;
+    
+    /* Window Background Color */
+    --bg-color:rgb(12 12 12);
+    
+    /* Window Outline Color */
+    --outline-color:#1e1e1e;
+}
+
+/* Only Modify Below Stuff if you Want a Unique CSS*/
+
+@font-face {
+    font-family: gamefont;
+    src: url(https://raw.githubusercontent.com/Yadub/BoulderBox/master/fonts/Fontfabric---Mont-Heavy.otf);
+}
+
+#backgroundImage{
+    /* Background Image */
+    background-image:var(--background-url)!important;
+    background-size:100% 100%;
+    opacity:0.9;
+}
+
+.scrollItemNew {
+    /* Each Element on the main profile will have this background color and outline */
+    border:2px solid var(--outline-color)!important;
+    background-color:var(--bg-color);
+    border-radius:var(--corner-radius);
+    /* Removes the shadow */
+    -webkit-box-shadow:0 0px 0 0 #494949;-moz-box-shadow:0 0px 0 0 #494949;box-shadow:0 0px 0 0 #494949;
+}
+
+.profileTabs{
+    outline:2px solid #1e1e1e!important;
+    background-color:var(--bg-color);
+}
+
+.profileTab:hover{
+    font-size: 19px !important;
+    transition: 0.2s;
+    color: #ffffff !important
+}
+
+.classImg {
+    background: none
+}
+
+#chatScroller{
+    background: none
+}
+
+#navBar{
+    background: none
+}
+
+/* XP Bars */
+.xpBarB {
+	height: 100%;
+	background-image: linear-gradient(to right, #242424, #808080)
+}
+
+.clsXPBarC{
+    background-image: linear-gradient(to right, #242424, #808080)   
+}
+
+#nameSwitch{
+    color: #a7a7a7;
+}
+
+/* stat tabs */
+.bigMenTab{
+    color: #ffffffB3;
+    border-bottom: none
+    
+}
+
+.bigMenTab:hover{
+    font-size: 19px !important;
+    transition: 0.2s;
+    color: #ffffff !important;
+    border-bottom: none
+}
+
+/* creation tabs */
+.creationTab{
+    background: #0c0c0c;
+    border-bottom: none
+}
+
+.creationTab:hover{
+    color: white;
+    font-size: 19px;
+    transition: 0.2s
+}
+
+.creationSkinImg{
+    background: #171717
+}
+
+.mapListItem2{
+    background: #171717
+}
+
+a{
+    color: white
+}
+
+/* hub posts */
+.socPost{
+    background: #0c0c0c
+}
+
+
+/* Buttons */
+
+#tradeBtn{
+    color: white;
+    border: none;
+    background: #333333
+}
+
+#giftBtn{
+    color: white;
+    border: none;
+    background: #333333
+}
+
+#followBtn{
+    color: white;
+    border: none;
+    background: #333333
+}
+
+
+/* hide bottom stuff */
+
+#editrDB{
+    display: none
+}
+
+#steamDB{
+    display: none !important
+}
+
+#iosDB {
+    display:none !important
+}
+
+#androidDB{
+    display:none !important
+}

@@ -1,0 +1,155 @@
+/* pfcss for randomx9 :) */
+@font-face {
+  font-family: gamefont;
+  src: url(https://ashevoy.github.io/secularone.ttf);
+}
+* {
+  font-family: gamefont;
+  font-variation-settings: 'wght' 650;
+}
+#backgroundImage {
+    background-image: url(https://cdn.discordapp.com/attachments/628964831529140254/1052665277957013555/test.png)!important;
+    background-size: 100% 100%;
+    opacity: 1;
+}
+#chatScroller {
+    background-color: rgba(0,0,0,.0);
+}
+#shareBtn, #reprtBtn {
+    color: #ff689d!important;
+}
+.xpBar {
+    padding: 3px;
+}
+.xpBarB {
+    background-image: linear-gradient(to right,#ff689d,#a2589b,#6751a2);
+}
+span.xpBarV {
+    font-size: 18px;
+    font-variation-settings: 'wght' 780;
+}
+#tradeBtn, #giftBtn, #followBtn {
+    text-transform: uppercase;
+    border-color:transparent;
+    color: white;
+    background-color: #ff689d;
+}
+.leftBottomHolder {
+    font-size: 20px!important;
+}
+.follCount {
+    font-size: 17px;
+    text-transform: lowercase;
+    top: 2px;
+}
+.leftTopHolder {
+    font-size: 25px;
+}
+@keyframes rayntext {
+    0%, 200% {
+        background-position: 0 0;
+    }
+    99.9999999999999999999999999999999% {
+        background-position: -130% 0;
+    }
+}
+.leftTopHolder {
+    background-image: linear-gradient(to right, #00000000,#00000000,#00000000,#00000000,#00000000,#00000005,#00000011,#00000009);
+}
+.leftTopHolder a {
+    background-image: linear-gradient(to right, #ff689d,#f089e6,#bda4ff);
+    animation: rayntext 3s cubic-bezier(0.07, 2.37, 0.93, -0.88) infinite;
+    background-size: 400% 100%;
+    color: transparent !important;
+    -webkit-background-clip: text;
+    animation-direction: alternate;
+}
+#statTab1, #statTab2, #statTab3, #statTab0 {
+    font-size: 18px!important;
+    text-transform: uppercase;
+    border-bottom: none!important;
+    color: rgba(255,255,255,.8);
+}
+#statTab1:hover, #statTab2:hover, #statTab3:hover, #statTab0:hover {
+    color:white;
+}
+.profileTab {
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.pSt {
+    font-size: 15px;
+    color: #fff;
+    border: 0px solid rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0);
+    text-shadow: none!important;
+    font-variation-settings: 'wght' 550;
+    transition-duration: .12s;
+    width: 150px;
+}
+.pSt:hover {
+    font-size: 12px;
+    transition-duration: .12s;
+}
+.pSt strong {
+    color: #fff;
+    font-size: 18px;
+    text-shadow: none;
+    font-variation-settings: 'wght' 780;
+    transition-duration: .12s;
+}
+.pSt:hover strong {
+    font-size: 21px;
+    transition-duration: .12s;
+}
+.scrollItemNew {
+    filter: drop-shadow(8px 8px 0px #f96191) drop-shadow(2px 4px 6px black);
+    background-color: #42186b;
+    box-shadow: none;
+    margin-bottom: 30px;
+}
+.profileNav {
+    filter: drop-shadow(8px 8px 0px #f96191) drop-shadow(2px 4px 6px black);
+    margin-top: -20px;
+    margin-bottom: 25px;
+    border-radius: 0px;
+}
+.profileTabs {
+    background-color: #42186b;
+}
+.profileTab:hover {
+    color: white;
+}
+.profileTab {
+    border-top: none;
+}
+.leftMidHolder {
+    color: white;
+}
+.leftMidHolder span {
+    color: rgba(255,255,255,0.8)!important;
+}
+.follL {
+    color: white
+}
+.scrollItemHead {
+    color: white;
+}
+.bigMenTabs {
+    background-color: transparent!important;
+}
+.classLvl {
+    font-size: 20px;
+}
+.clsXPBarC {
+    background-image: linear-gradient(to right, #ff689d,#f089e6,#bda4ff);
+}
+#nameSwitch {
+    color: white;
+}
+#profSales {
+    filter: hue-rotate(200deg);
+}
+.graphHeader {
+    filter: hue-rotate(200deg);
+}

@@ -1,0 +1,227 @@
+/* 
+Gatoclient Profile Theme Template
+By creepycats
+
+Modify the Variables below to customize your theme
+Use resource swapper to test it before submitting
+*/
+:root {
+    /* This is the background that will show up behind your user info*/
+    --background-url: url("https://cdn.discordapp.com/attachments/624768972428017689/1050958674274816111/yande.png");
+    
+    /* Radius of corners */
+    --corner-radius: 24px;
+    
+    /* Window Background Color */
+    --bg-color: #8e72a660;
+    
+    /* Window Outline Color */
+    --outline-color: #ddb8ff;
+}
+/* Only Modify Below Stuff if you Want a Unique CSS*/
+
+#backgroundImage{
+    /* Background Image */
+    background-image: var(--background-url)!important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.scrollItemNew {
+    /* Each Element on the main profile will have this background color and outline */
+    border: 3px solid var(--outline-color)!important;
+    background-color: var(--bg-color);
+    border-radius: var(--corner-radius);
+    
+    /* Removes the shadow */
+    -webkit-box-shadow:0 0px 0 0 #494949;-moz-box-shadow:0 0px 0 0 #494949;box-shadow:0 0px 0 0 #494949;
+}
+
+.profileTab {
+    color: white;
+    line-height: 35px;
+    font-size: 16px;
+    border-top: 4px solid transparent;
+}
+
+.profileTabs{
+    outline: 0px solid white!important;
+    background-color: var(--bg-color);
+
+}
+
+.profileTab:hover {
+    border-color: white;
+}
+
+.pTabA {
+    cursor: default;
+    border-color: transparent;
+}
+
+.pSt strong {
+    color: #ddb8ff;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: none;
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+}
+
+.pSt {
+    font-size: 12px;
+    color: #fff;
+    padding: 45px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+    text-transform: uppercase;
+    border: 3px solid var(--outline-color);
+    border-radius: var(--corner-radius);
+    background-color: transparent;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black !important;
+}
+
+#nameSwitch {
+    cursor: pointer;
+    pointer-events: all;
+    color: #ddb8ff;
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+}
+
+.leftMidHolder {
+    left: 130px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ddb8ff;
+    font-size: 15px;
+    position: absolute;
+}
+
+.xpBar {
+    width: 875px;
+    height: 35px;
+    padding: .1px;
+    background-color: #4d395f80;
+    border: 3px solid #dbb8ff;
+    border-radius: 20px;
+    position: relative;
+}
+
+.xpBarB {
+    height: 100%;
+    background-image: linear-gradient(to right,#c07dff,#ddb8ff);
+    border-radius: 25px;
+}
+
+.clsXPBarC {
+    background-image: linear-gradient(to right,#c07dff,#ddb8ff);
+}
+
+.bigMenTab {
+    line-height: 45px;
+    color: #fff;
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+    font-size: 16px !important;
+}
+
+.bigMenTabA {
+    border-bottom: 5px solid #dbb8ff;
+}
+
+.bigMenTabs {
+    background-color: transparent !important;
+    border: 3px solid #dbb8ff;
+    box-shadow: none;
+}
+
+#tradeBtn, #giftBtn, .follow {
+    color: var(--outline-color);
+    border: 3px solid;
+    border-color: var(--outline-color);
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+    box-shadow: 0 0 1px #000;
+}
+
+#reprtBtn, #shareBtn {
+    color: #dbb8ff!important;
+    pointer-events: all;
+    cursor: pointer;
+    -webkit-transition: all 0s;
+    transition: all 0s;
+    font-size: 40px;
+    text-shadow: 0 0 2px black;
+}
+
+#twitchBtn {
+    pointer-events: all;
+    cursor: pointer;
+    -webkit-transition: all 0s;
+    transition: all 0s;
+    width: 28px;
+}
+
+.socPost {
+    background-color: var(--bg-color);
+    -moz-box-shadow: 0 7px 0 0 #d8d8d8;
+    border: 3px solid #dbb8ff;
+}
+
+.blueLink {
+    color: #dbb8ff !important;
+}
+
+.shareBtnHol {
+    color: #dbb8ff;
+    background-color: transparent;
+    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
+    border: 3px solid #dbb8ff;
+    box-shadow: 0 0 1px #000;
+}
+
+.creationTab {
+    color: white;
+    border-bottom: 4px solid transparent;
+}
+
+.creationTab:hover {
+    border-color: white;
+}
+
+.creationTabs {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.mapListItem2 {
+    width: 205px;
+    border: 3px solid #dbb8ff;
+    border-radius: 16px;
+    background-color: var(--bg-color);
+    padding: 4px;
+    text-align: center;
+}
+
+a {
+    text-shadow: 0 0 1px black;
+    color: #dbb8ff;
+}
+
+.mapsVotes {
+    font-size: 15px;
+    right: 8px;
+    color: #fff;
+    pointer-events: all;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black !important;
+}
+
+.mapListThumb {
+    cursor: pointer;
+    width: 100% !important;
+    transition: all .2s;
+    display: inline-block;
+    background-color: rgba(0,0,0,.3);
+}

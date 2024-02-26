@@ -1,0 +1,85 @@
+/* 
+Gatoclient Profile Theme Template
+By creepycats
+
+Modify the Variables below to customize your theme
+Use resource swapper to test it before submitting
+*/
+:root {
+    --background-url: url("https://cdn.discordapp.com/attachments/680034529146044436/929019475179753513/kirka_bg.png");
+    --corner-radius: 15px;
+    --bg-color: rgba(21, 21, 21, .5);
+    --stat-bg-color: #353535;
+    --outline-color: #ce0037;
+    --outline-size: 4px;
+    --xpbar-color: #ce0037;
+    --blur: 5px;
+}
+
+#backgroundImage {
+    background-image: var(--background-url) !important;
+    background-size: 100% 100%;
+    opacity: 1;
+}
+
+.profileNav,
+.scrollItemNew,
+#profileHolder > div.scrollItemNew {
+    background-color: var(--bg-color);
+    backdrop-filter: blur(var(--blur));
+}
+
+#profileHolder > div.scrollItemNew,
+.profileNav {
+    border-left: var(--outline-size) solid var(--outline-color) !important;
+    border-right: var(--outline-size)solid var(--outline-color) !important;
+}
+
+#profileHolder > div.scrollItemNew {
+    border-radius: var(--corner-radius) var(--corner-radius) 0px 0px;
+    border-top: var(--outline-size) solid var(--outline-color) !important;
+    border-bottom: none;
+    box-shadow: none !important;
+}
+
+.profileNav {
+    margin-top: -21px;
+    border-radius: 0px 0px var(--corner-radius) var(--corner-radius);
+    border-bottom: var(--outline-size)solid var(--outline-color) !important;
+}
+
+.scrollItemNew {
+    box-shadow: none !important;
+    border: var(--outline-size) solid var(--outline-color);
+    border-radius: var(--corner-radius);
+}
+    
+.xpBarB,
+.clsXPBarC {
+    background-image: none;
+    background-color: var(--xpbar-color);
+}
+
+.xpBar,
+.xpBarB,
+.clsXPBarC,
+.classXPBar,
+.classCard,
+.pSt,
+.bottomBtn {
+    border-radius: var(--corner-radius);
+}
+
+.classImg {
+    border-radius: calc(var(--corner-radius) - 5px);
+}
+
+.pSt,
+.classCard {
+    background-color: var(--stat-bg-color);
+}
+
+.profileTabs,
+.profileTab {
+    background: transparent;
+}

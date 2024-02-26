@@ -1,0 +1,35 @@
+:root {
+    /* This is the background that will show up behind your user info*/
+    --background-url: url("https://i.pinimg.com/originals/a6/64/13/a664131e8ffa0d526e712f86b55b02c4.jpg");
+    
+    /* Radius of corners */
+    --corner-radius: 8px;
+    
+    /* Window Background Color */
+    --bg-color:rgb(173 216 230 / .5);
+    
+    /* Window Outline Color */
+    --outline-color:blue;
+}
+/* Only Modify Below Stuff if you Want a Unique CSS*/
+
+#backgroundImage{
+    /* Background Image */
+    background-image:var(--background-url)!important;
+    background-size:100% 100%;
+    opacity:0.9;
+}
+
+.scrollItemNew {
+    /* Each Element on the main profile will have this background color and outline */
+    border:2px solid var(--outline-color)!important;
+    background-color:var(--bg-color);
+    border-radius:var(--corner-radius);
+    
+    /* Removes the shadow */
+    -webkit-box-shadow:0 0px 0 0 #494949;-moz-box-shadow:0 0px 0 0 #494949;box-shadow:0 0px 0 0 #494949;
+}
+
+.profileTabs{
+    outline:2px solid white!important;
+    background-color:var(--bg-color);

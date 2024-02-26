@@ -1,0 +1,34 @@
+{
+  "partners":[
+    {
+      "name":"creepycats",
+      "image":"https://cdn.discordapp.com/attachments/901905234861883432/1058833945870991391/9k.png",
+      "desc":"Client Creator, Go Follow My Twitch!",
+      "link":"https://www.twitch.tv/creepycats"
+    },
+    {
+      "name":"ax Clan",
+      "image":"https://media.discordapp.net/attachments/832445148636905482/1058895969275629599/axxxx.png",
+      "desc":"ax on top! Click to join our discord.",
+      "link":"https://discord.gg/UBrhqWrA3t"
+    },
+    {
+      "name":"Kuro Clan",
+      "image":"https://media.discordapp.net/attachments/1077425792411238450/1077427796638445649/kuro.png",
+      "desc":"Lurking in the darkness. Click to join our discord!",
+      "link":"https://discord.gg/mNZuJ4Dep2"
+    },
+    {
+      "name":"Krunker Hispanic",
+      "image":"https://media.discordapp.net/attachments/1065000487855870003/1065015960597176440/812626ccbf8077b3102019462529947f.png",
+      "desc":"Krunker Hispanic Comunity, Join!",
+      "link":"https://discord.gg/NYHa2Um89Y"
+    },
+    {
+      "name":"cute Clan",
+      "image":"https://cdn.discordapp.com/attachments/1045065782360559647/1078077359275655288/cute__ephemeral.gif",
+      "desc":"The Cutest. The Best. Click to join our discord.",
+      "link":"https://discord.gg/dKRaafTxtr"
+    }
+  ]
+}

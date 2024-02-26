@@ -1,0 +1,29 @@
+#killCard:before{
+    z-index:98;
+    width:100%;
+    height:100%;
+    background-color:#000000AA;
+    position:absolute;
+    transform:translate(calc(-100% + 8px),-8px);
+    content:"";
+}
+#killCard:after{
+    z-index:99;
+    width:100%;
+    height:50%;
+    position:absolute;
+    transform:translate(calc(-100% + 48px),-50%);
+    content:"Gato Ban";
+    font-size:50px;
+    color:#FF4444;
+}
+
+/* Comment */
+#kCQuote:before{
+    content:"#1 Client User to get Ban"
+}
+
+/* Hide Stat */
+#kCStat{
+    display:none
+}
