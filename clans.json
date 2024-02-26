@@ -9,16 +9,64 @@
       "color":"#FF5733"
     },
     {
-      "name":"kiss",
-      "color":"#FEA9E5"
+      "name":"ㄕ",
+      "color":"#000000"
     },
     {
-      "name":"Sway",
-      "color":"#000000"
+      "name":"28",
+      "color":"#ba70ff"
     },
     {
       "name":"cute",
       "color":"#ff8099"
+    },
+    {
+      "name":"sway",
+      "color":"#d000ff"
+    },
+    {
+      "name":"nine",
+      "color":"#DA004E"
+    },
+    {
+      "name":"24/7",
+      "color":"#0bdee0"
+    },
+    {
+      "name":"c4",
+      "color":"#ffca00"
+    },
+    {
+      "name":"jump",
+      "color":"#69F4EE"
+    },
+    {
+      "name":"fog",
+      "color":"#987ACE"
+    },
+    {
+      "name":"rev",
+      "color":"#3253ad"
+    },
+    {
+      "name":"gore",
+      "color":"#9258c6"
+    },
+    {
+      "name":"one",
+      "color":"#147dff"
+    },
+    {
+      "name":"arae",
+      "color":"#122A63"
+    },
+    {
+      "name":"psvm",
+      "color":"#FF66CC"
+    },
+    {
+      "name":"46.c",
+      "color":"#01FFEF"
     }
   ]
 }
