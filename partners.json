@@ -2,7 +2,7 @@
   "partners":[
     {
       "name":"creepycats",
-      "image":"https://cdn.discordapp.com/attachments/901905234861883432/1058833945870991391/9k.png",
+      "image":"https://twitter.com/creepycatsttv/header_photo",
       "desc":"Client Creator, Go Follow My Twitch!",
       "link":"https://www.twitch.tv/creepycats"
     },
@@ -10,13 +10,13 @@
       "name":"BestBalls",
       "image":"https://cdn.discordapp.com/banners/526994842258112524/a_9ea65105dd9edda355d106fdeda2d8ab?size=4096",
       "desc":"Literally Him",
-      "link":"https://www.twitch.tv/creepycats"
+      "link":"https://pc7client.com"
     },
     {
       "name":"24/7 Clan",
-      "image":"https://media.discordapp.net/attachments/832445148636905482/1058895969275629599/axxxx.png",
-      "desc":"ax on top! Click to join our discord.",
-      "link":"https://discord.gg/UBrhqWrA3t"
+      "image":"https://twitter.com/247Krunker/header_photo",
+      "desc":"#AllTheWay! Click to join their discord.",
+      "link":"https://discord.gg/nhPnRF7KfN"
     },
   ]
 }
