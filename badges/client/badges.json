@@ -1,5 +1,8 @@
 {
-  "users": {
-    "EctsKitten": ["gatoVIP"]
-  }
+  "users": [
+    {
+      "kr_name": "EctsKitten",
+      "badges": ["gatoVIP"]
+    }
+  ]
 }
